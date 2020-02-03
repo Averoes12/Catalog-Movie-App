@@ -1,0 +1,71 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/listCard"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="12dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name_item"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="10dp"
+            android:layout_toEndOf="@id/img_item"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/popularity_item"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                tools:text="Popularity" />
+
+            <TextView
+                android:id="@+id/date_item"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="textEnd"
+                android:textSize="15sp"
+                tools:text="Release Date" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/name_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="18dp"
+            android:layout_toEndOf="@id/img_item"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            tools:text="Title" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_item"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            tools:src="@tools:sample/avatars" />
+
+        <ImageButton
+            android:id="@+id/btn_del"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/round_bg"
+            android:textSize="20sp"
+            android:src="@drawable/ic_delete_black_24dp"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+

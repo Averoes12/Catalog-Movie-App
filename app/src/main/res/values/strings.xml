@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Catalogue Movie API</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Catalogue Movie</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="language_settings">Language Setting</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_nowplaying">Movie</string>
+    <string name="menu_tvshow">Tv Show</string>
+    <string name="vote">Vote : </string>
+    <string name="release_date">Release Date : </string>
+    <string name="overview">Overview : </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="favorite">Favorite</string>
+
+    <string name="mark_favorite">Mark as Favorite</string>
+    <string name="failed_favorite">The Movie has Released in Favorite</string>
+    <string name="nothing_favorite">Nothing Favorite</string>
+
+    <string name="delete_data">Favorite has been deleted Successfully</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="i_m_looking_for">I\'m looking for....</string>
+    <string name="result_for_movie">Result for Movie</string>
+    <string name="result_for_Tv">Result for Tv</string>
+    <string name="search">Search</string>
+    <string name="appwidget_text">Favorite Movie</string>
+    <string name="empty_text">Nothind Data</string>
+
+    <string name="daily_reminder">Daily Reminder Notification</string>
+    <string name="upcoming_movie_reminder_notification">Upcoming Movie Reminder Notification</string>
+    <string name="setting">Setting</string>
+</resources>

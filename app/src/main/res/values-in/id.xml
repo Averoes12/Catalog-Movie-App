@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nav_header_title">Katalog Film</string>
+    <string name="app_name">Catalogue Movie API</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="language_settings">Pengaturan Bahasa</string>
+    <string name="menu_home">Beranda</string>
+    <string name="menu_nowplaying">Film</string>
+    <string name="menu_tvshow">Acara Tv</string>
+
+    <string name="vote">Peringkat : </string>
+    <string name="release_date">Tanggal rilis : </string>
+    <string name="overview">Sinopsis : </string>
+
+    <string name="favorite">Favorit</string>
+
+    <string name="mark_favorite">Ditandai sebagai Favorit</string>
+    <string name="failed_favorite">Film ini sudah ada di Favorit</string>
+    <string name="nothing_favorite">Tidak ada Favorit</string>
+
+    <string name="delete_data">Favorite telah dihapus</string>
+
+    <string name="i_m_looking_for">Cari…</string>
+    <string name="result_for_movie">Hasil untuk film</string>
+    <string name="result_for_Tv">hasil untuk acara tv</string>
+    <string name="search">Search</string>
+
+    <string name="appwidget_text">Film Favorite</string>
+    <string name="empty_text">Tidak ada data</string>
+
+    <string name="daily_reminder">Notifikasi pengingtat harian</string>
+    <string name="upcoming_movie_reminder_notification">Notifikasi pengingat film akan datang</string>
+    <string name="setting">Pengaturan</string>
+</resources>
