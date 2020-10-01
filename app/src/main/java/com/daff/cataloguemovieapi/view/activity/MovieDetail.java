@@ -34,8 +34,8 @@ public class MovieDetail extends AppCompatActivity {
     ToggleButton btnFavorite;
     ResultsItem movie;
     boolean state = false;
-    final static String url_backdrop = "https://image.tmdb.org/t/p/w500";
-    final static String url_poster = "https://image.tmdb.org/t/p/w154";
+    final static String URL_BACKDROP = "https://image.tmdb.org/t/p/w500";
+    final static String URL_POSTER = "https://image.tmdb.org/t/p/w154";
 
     FavoriteHelper favoriteHelper;
 
